@@ -1,5 +1,5 @@
 basic:
-    name: 'Maintenance project'
+    name: 'Non-critical maintanence projects'
     breakpoints:
         - 390
         - 1920
