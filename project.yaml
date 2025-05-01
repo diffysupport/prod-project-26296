@@ -1,9 +1,7 @@
 basic:
     name: 'Maintenance project'
     breakpoints:
-        - 640
-        - 1024
-        - 1200
+        - 1920
     pages:
         - 'https://recademics.com'
         - 'https://recademics.com/boating'
@@ -30,7 +28,8 @@ advanced:
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content: ''
+    mock_content:
+        - { selector: '', type: title }
     performance:
         workers_production: 30
         workers_nonproduction: 10
