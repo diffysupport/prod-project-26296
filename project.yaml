@@ -16,7 +16,7 @@ basic:
 advanced:
     mask: ''
     remove: .slider-brands
-    isolate: ''
+    isolate: "#uc-overlay\n#uc-main-dialog"
     delay: 20
     scroll: true
     headers:
