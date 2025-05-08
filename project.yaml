@@ -17,7 +17,7 @@ advanced:
     mask: ''
     remove: .slider-brands
     isolate: "#uc-overlay\n#uc-main-dialog\naside"
-    delay: 20
+    delay: 60
     scroll: true
     headers:
         - { header: '', value: '' }
