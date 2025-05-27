@@ -14,9 +14,8 @@ basic:
         compare_with: last-production
         compare_with_fresh: production
 advanced:
-    mask: ''
-    remove: .slider-brands
-    isolate: "#uc-overlay\n#uc-main-dialog\naside"
+    mask: .slider-brands
+    remove: "#uc-overlay\n#uc-main-dialog\naside"
     delay: 60
     scroll: true
     headers:
@@ -26,9 +25,14 @@ advanced:
     custom_css: ''
     mock_content:
         - { selector: '', type: title }
+    sensitivity: 30
+    night_mode: false
+    retina_images: false
     performance:
         workers_production: 30
         workers_nonproduction: 10
         workers_production_delay: 0
         workers_nonproduction_delay: 0
     stabilize: true
+proxy: false
+type: multiple-sites
