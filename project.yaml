@@ -18,13 +18,11 @@ advanced:
     remove: "#uc-overlay\n#uc-main-dialog\naside"
     delay: 60
     scroll: true
-    headers:
-        - { header: '', value: '' }
+    headers: {  }
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content:
-        - { selector: '', type: title }
+    mock_content: {  }
     sensitivity: 30
     night_mode: false
     retina_images: false
